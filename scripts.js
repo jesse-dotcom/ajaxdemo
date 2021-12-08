@@ -73,8 +73,8 @@ function appendHTML(dt) {
         <div class="main-left">
             <h1 class="title">${dt.Title}</h1>
             <img src="${dt.Poster}" alt="${dt.Title}-movie-poster">
-            <p class="movie-genre">Genre: ${dt.Genre}</p>
-            <p class="movie-release">Release Date: ${dt.Released}</p>
+            <p class="movie-genre">Luokka: ${dt.Genre}</p>
+            <p class="movie-release">Julkaisupäivä: ${dt.Released}</p>
         </div>
         <div class="main-right">
             <div class="rating-div">
