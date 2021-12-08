@@ -65,7 +65,7 @@ buttonREMOVE.addEventListener("click", function() {
 })
 
 
-function appendHTML(dt) {
+function appendHTML(dt) { //Tällä luodaan komento siitä mitä tietoja elokuvasta näytetään kun sen hakee
     
     const htmlString = 
     `
@@ -81,9 +81,9 @@ function appendHTML(dt) {
                 <p>IMDb rating</p>
                 <p class="rating-number">${dt.imdbRating}</p>
             </div>
-            <p class="director">Director: ${dt.Director}</p>
-            <p class="actors">Actors: ${dt.Actors}</p>
-            <p class="movie-plot">Plot: ${dt.Plot}</p>
+            <p class="director">Ohjaaja: ${dt.Director}</p>
+            <p class="actors">Päänäyttelijät: ${dt.Actors}</p>
+            <p class="movie-plot">Juoni: ${dt.Plot}</p>
         </div>
         <div class="remove">x</div>
     </div>`;
